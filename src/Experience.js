@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className=" bg-gray-100 min-h-screen">
+    <div className="p-6 bg-gray-100 min-h-screen">
       <div id="technicalExperience" className="pt-20">
         <header className="text-center text-2xl font-bold mb-8">
           Technical Experience

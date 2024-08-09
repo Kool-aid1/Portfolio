@@ -4,7 +4,7 @@ import myPhoto from "./images/kennyPFP.jpg";
 
 function AboutMe() {
   return (
-    <section id="aboutMe">
+    <section id="aboutMe" className="pt-16">
       <div className="flex flex-col justify-center items-center bg-zinc-400 p-6 min-h-screen">
         <header className="text-6xl font-bold mb-4 text-center">About Me</header>
           <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-4xl w-full mt-4">
