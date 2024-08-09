@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
-      <div id="technicalExperience" className="pt-20">
+      <div id="experience" className="pt-20">
         <header className="text-center text-2xl font-bold mb-8">
           Technical Experience
         </header>
@@ -89,7 +89,7 @@ function App() {
           </div>
         </div>
         <div className="p-6 bg-gray-100 min-h-screen">
-          <div id="otherExperience" className="pt-20">
+          <div className="pt-20">
             <header className="text-center text-2xl font-bold mb-8">
               Other Experience
             </header>

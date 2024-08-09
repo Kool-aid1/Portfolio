@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 
 function Navbar() {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
-  const toggleDropDown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
 
   return (
     <div>
@@ -16,28 +11,7 @@ function Navbar() {
           </div>
           <div className="flex space-x-6 text-sm font-bold">
             <a href="#aboutMe">About Me</a>
-            <div className="relative inline-block">
-              <button onClick={toggleDropDown} className="focus:outline-none">
-                Experience
-              </button>
-              {isDropdownOpen && (
-                <div className="absolute top-full left-0 mt-2 bg-white shadow-lg">
-                  <a
-                    href="#technicalExperience"
-                    className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-200"
-                  >
-                    Technical Experience
-                  </a>
-                  <a
-                    href="#otherExperience"
-                    className="block px-2 py-1 text-sm text-gray-700 hover:bg-gray-200"
-                  >
-                    Other Experience
-                  </a>
-                </div>
-              )}
-            </div>
-
+            <a href="#experience">Experience</a>
             <a href="#Projects">Projects</a>
             <a href="#resume">Resume</a>
             <a href="#Contact">Contact</a>
