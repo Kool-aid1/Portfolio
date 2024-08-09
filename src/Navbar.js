@@ -21,7 +21,7 @@ function Navbar() {
                 onClick={toggleDropDown}
                 className="focus:outline-none"
               >
-                Experience!
+                Experience
               </button>
               {isDropdownOpen && (
                 <div className="absolute top-full mt-2 bg-white shadow-lg">
