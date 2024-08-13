@@ -4,11 +4,11 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="flex justify-center items-center min-h-screen px-4"
+      className="flex bg-gray-300 justify-center items-center min-h-screen px-4"
     >
       <div>
         <div>
-          <header className="text-center text-2xl font-bold">Skills</header>
+          <header className="text-center text-2xl font-bold">Skills & Tools</header>
         </div>
         <div className="text-center mt-5">
           <ul className="space-y-4">
