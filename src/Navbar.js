@@ -10,6 +10,7 @@ function Navbar() {
           </div>
           <div className="flex space-x-6 text-sm font-bold">
             <a href="#aboutMe">About Me</a>
+            <a href="#skills">Skills</a>
             <a href="#experience">Experience</a>
             <a href="#Projects">Projects</a>
             <a href="#Contact">Contact</a>

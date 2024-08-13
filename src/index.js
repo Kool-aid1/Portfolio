@@ -7,14 +7,15 @@ import AboutMe from "./AboutMe";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import reportWebVitals from "./reportWebVitals";
+import Skills from "./skills";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Navbar />
     <AboutMe />
+    <Skills />
     <Experience />
-    <Projects />
     <App />
   </React.StrictMode>
 );
