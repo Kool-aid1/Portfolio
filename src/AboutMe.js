@@ -19,7 +19,7 @@ function AboutMe() {
                 alt="Kenny Ly"
                 className="rounded-lg shadow-lg object-cover h-full w-full md:w-auto md:h-auto"
               />
-            </div>
+            </div> 
             <div className="p-6 md:w-1/2 flex flex-col justify-center items-center">
               <p className="text-lg leading-relaxed">
                 &emsp;Hello, my name is Kenny Ly and I am a recent graduate at
