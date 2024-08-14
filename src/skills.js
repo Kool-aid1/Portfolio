@@ -20,6 +20,7 @@ function Skills() {
               <li>C++</li>
               <li>Python</li>
               <li>C#</li>
+              <li>Swift</li>
               <li>HTML/CSS</li>
               <li>Javascript</li>
             </ul>
@@ -42,6 +43,7 @@ function Skills() {
               <li>Visual Studio Code</li>
               <li>Visual Studio</li>
               <li>Eclipse</li>
+              <li>XCode</li>
             </ul>
             <ul className="flex flex-wrap justify-center sm:justify-start space-x-2 sm:space-x-4 mt-2">
               <li className="font-bold w-full sm:w-auto">Cloud:</li>
