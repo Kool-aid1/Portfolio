@@ -8,9 +8,11 @@ function Skills() {
     >
       <div>
         <div>
-          <header className="text-center text-2xl font-bold">Skills & Tools</header>
+          <header className="text-center text-3xl font-bold">
+            Skills & Tools
+          </header>
         </div>
-        <div className="text-center mt-5">
+        <div className="text-center mt-5 text-lg">
           <ul className="space-y-4">
             <ul className="flex flex-wrap justify-center sm:justify-start space-x-2 sm:space-x-4 mt-2">
               <li className="font-bold w-full sm:w-auto">Languages:</li>
@@ -22,7 +24,9 @@ function Skills() {
               <li>Javascript</li>
             </ul>
             <ul className="flex flex-wrap justify-center sm:justify-start space-x-2 sm:space-x-4 mt-2">
-              <li className="font-bold w-full sm:w-auto">Frameworks/Libraries:</li>
+              <li className="font-bold w-full sm:w-auto">
+                Frameworks/Libraries:
+              </li>
               <li>Apache</li>
               <li>Selenium</li>
               <li>Tensorflow</li>
@@ -62,6 +66,37 @@ function Skills() {
               <li>Heroku</li>
               <li>SnapDragon Spaces</li>
             </ul>
+          </ul>
+        </div>
+        <div className="pt-20">
+          <header className="text-center text-3xl font-bold">
+            Certifications
+          </header>
+        </div>
+        <div className="text-center mt-5 mb-8 text-lg">
+          <a className="font-bold w-full sm:w-auto">Coursera:</a>
+          <p className="mb-2 text-blue-500 underline hover:text-blue-700">
+            <a href="https://www.credly.com/badges/4b27cd17-8caf-4167-9060-7da608b01fe1/linked_in_profile">
+              Web Development with HTML, CSS, Javascript</a>
+          </p>
+          <p className="mb-2 text-blue-500 underline hover:text-blue-700">
+            <a href="https://www.coursera.org/account/accomplishments/verify/OKUJ7MEUTZQD">
+              Introduction to Cloud Computing</a>
+          </p>
+          <p className="mb-2 text-blue-500 underline hover:text-blue-700">
+            <a href="https://www.coursera.org/account/accomplishments/verify/GI9H99KZPD5K">
+              Getting Started with Git and GitHub</a>
+          </p>
+          <p className="mb-2 text-blue-500 underline hover:text-blue-700">
+            <a href="https://www.coursera.org/account/accomplishments/verify/2EWJU1RA4GCC">
+              Developing Front-End Apps with React
+            </a>
+          </p>
+        </div>
+        <div className="text-center mt-5 mb-8 text-lg">
+          <ul className="flex flex-wrap justify-center space-x-2 sm:space-x-4 mt-2">
+            <li className="font-bold w-full sm:w-auto">CompTIA:</li>
+            <li>A+ (currently working on)</li>
           </ul>
         </div>
       </div>
