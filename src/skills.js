@@ -4,7 +4,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="flex bg-gray-300 justify-center items-center min-h-screen px-4"
+      className="flex bg-gray-300 justify-center items-center min-h-screen px-4 pt-20"
     >
       <div>
         <div>
@@ -79,15 +79,18 @@ function Skills() {
           <a className="font-bold w-full sm:w-auto">Coursera:</a>
           <p className="mb-2 text-blue-500 underline hover:text-blue-700">
             <a href="https://www.credly.com/badges/4b27cd17-8caf-4167-9060-7da608b01fe1/linked_in_profile">
-              Web Development with HTML, CSS, Javascript</a>
+              Web Development with HTML, CSS, Javascript
+            </a>
           </p>
           <p className="mb-2 text-blue-500 underline hover:text-blue-700">
             <a href="https://www.coursera.org/account/accomplishments/verify/OKUJ7MEUTZQD">
-              Introduction to Cloud Computing</a>
+              Introduction to Cloud Computing
+            </a>
           </p>
           <p className="mb-2 text-blue-500 underline hover:text-blue-700">
             <a href="https://www.coursera.org/account/accomplishments/verify/GI9H99KZPD5K">
-              Getting Started with Git and GitHub</a>
+              Getting Started with Git and GitHub
+            </a>
           </p>
           <p className="mb-2 text-blue-500 underline hover:text-blue-700">
             <a href="https://www.coursera.org/account/accomplishments/verify/2EWJU1RA4GCC">
