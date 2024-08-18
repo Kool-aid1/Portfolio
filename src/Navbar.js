@@ -23,7 +23,7 @@ function Navbar() {
             <a href="#projects" className="hover:scale-110">
               Projects
             </a>
-            <a href="#Contact" className="hover:scale-110">
+            <a href="#contact" className="hover:scale-110">
               Contact
             </a>
           </div>
@@ -60,7 +60,7 @@ function Navbar() {
             <a href="#experience" className="py-2 hover:scale-110">
               Experience
             </a>
-            <a href="#Projects" className="py-2 hover:scale-110">
+            <a href="#projects" className="py-2 hover:scale-110">
               Projects
             </a>
             <a href="#Contact" className="py-2 hover:scale-110">
