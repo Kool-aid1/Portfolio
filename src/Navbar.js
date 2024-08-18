@@ -11,11 +11,21 @@ function Navbar() {
             <p className="font-bold text-lg p-4"> Kenny Ly </p>
           </div>
           <div className="hidden md:flex space-x-6 text-sm font-bold">
-            <a href="#aboutMe">About Me</a>
-            <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#Projects">Projects</a>
-            <a href="#Contact">Contact</a>
+            <a href="#aboutMe" className="hover:scale-110">
+              About Me
+            </a>
+            <a href="#skills" className="hover:scale-110">
+              Skills
+            </a>
+            <a href="#experience" className="hover:scale-110">
+              Experience
+            </a>
+            <a href="#projects" className="hover:scale-110">
+              Projects
+            </a>
+            <a href="#Contact" className="hover:scale-110">
+              Contact
+            </a>
           </div>
           <div className="md:hidden flex items-center">
             <button
@@ -41,11 +51,21 @@ function Navbar() {
         </nav>
         {menuOpen && (
           <div className="md:hidden flex flex-col items-center space-y-2 px-6 pt-2 text-md font-bold bg-zinc-400 border-b border-gray-500">
-            <a href="#aboutMe" className="py-2">About Me</a>
-            <a href="#skills" className="py-2">Skills</a>
-            <a href="#experience" className="py-2">Experience</a>
-            <a href="#Projects" className="py-2">Projects</a>
-            <a href="#Contact" className="py-2">Contact</a>
+            <a href="#aboutMe" className="py-2 hover:scale-110">
+              About Me
+            </a>
+            <a href="#skills" className="py-2 hover:scale-110">
+              Skills
+            </a>
+            <a href="#experience" className="py-2 hover:scale-110">
+              Experience
+            </a>
+            <a href="#Projects" className="py-2 hover:scale-110">
+              Projects
+            </a>
+            <a href="#Contact" className="py-2 hover:scale-110">
+              Contact
+            </a>
           </div>
         )}
       </header>

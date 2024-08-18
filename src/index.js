@@ -16,6 +16,7 @@ root.render(
     <AboutMe />
     <Skills />
     <Experience />
+    <Projects />
     <App />
   </React.StrictMode>
 );
