@@ -101,7 +101,7 @@ function Skills() {
         <div className="text-center mt-5 mb-8 text-lg">
           <ul className="flex flex-wrap justify-center space-x-2 sm:space-x-4 mt-2">
             <li className="font-bold w-full sm:w-auto">CompTIA:</li>
-            <li>A+ (currently working on)</li>
+            <li>Security+ (currently working on)</li>
           </ul>
         </div>
       </div>
