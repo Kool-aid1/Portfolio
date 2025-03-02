@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.unordered-list {
+    margin: 0 0 1rem 0; /* Consistent margin */
+    padding-left: 1.5rem; /* Padding for indentation */
+    list-style-type: disc; /* Default bullet style */
+    color: #333; /* Text color */
+  }
+  
+.list-item {
+    margin-bottom: 0.5rem; /* Consistent spacing between items */
+    font-size: 1rem; /* Consistent font size */
+    line-height: 1.5; /* Consistent line height for readability */
+    color: #333; /* Text color */
+    padding-left: 1rem; /* Padding for indentation */
+    position: relative; /* For custom bullet styling */
+  }
+  
+  .list-item::before {
+    /*content: '•'; /* Custom bullet point */
+    position: absolute;
+    left: 0;
+    color: #007bff; /* Bullet color */
+    font-size: 1.2rem; /* Bullet size */
+    line-height: 1.5; /* Align bullet with text */
+  }

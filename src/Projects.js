@@ -12,8 +12,8 @@ function App() {
           <header className="text-center text-xl font-semibold mb-4">
             HausOps (Mobile Application)
           </header>
-          <ul className="list-disc list-inside text-left">
-            <li>
+          <ul className="unordered-list">
+            <li className="list-item">
               Developing a cross-platform solution in React, Python, and Expo on
               a secure server, streamlining data flow and user experience
             </li>
@@ -23,13 +23,13 @@ function App() {
           <header className="text-center text-xl font-semibold mb-4">
             VizTrace (Networking Project)
           </header>
-          <ul className="list-disc list-inside text-left">
-            <li>
+          <ul className="unordered-list">
+            <li className="list-item">
               Developed a GUI-based trace route program to visualize packet
               paths and geolocate IP addresses using Python, Scapy, GeoIP2, and
               MaxMind DB Reader.
             </li>
-            <li>
+            <li className="list-item">
               Designed a web-based frontend with HTML, Flask, and Flask-CORS to
               display results on an interactive map, utilizing Npcap/libpcap for
               packet capture.
@@ -43,17 +43,17 @@ function App() {
           >
             Emotional Support Animals
           </header>
-          <ul className="list-disc list-inside text-left">
-            <li>
+          <ul className="unordered-list">
+            <li className="list-item">
               Created a webpage educating users about emotional support animals,
               featuring a quiz to recommend the best animal choice based on user
               responses using HTML, CSS, JavaScript, and PHP.
             </li>
-            <li>
+            <li className="list-item">
               Integrated Google Maps API to help users find nearby animal
               adoption services.
             </li>
-            <li>
+            <li className="list-item">
               Used PHP to store quiz questions and implement a point system for
               determining optimal animal matches.
             </li>
@@ -63,12 +63,12 @@ function App() {
           <header className="text-center text-xl font-semibold mb-4">
             Milo - Nutrition Tracker and Fitness Application
           </header>
-          <ul className="list-disc list-inside text-left">
-            <li>
+          <ul className="unordered-list">
+            <li className="list-item">
               A java application that uses JavaFx and calls a Food Database API
               to grab data to calculate calories
             </li>
-            <li>
+            <li className="list-item">
               The program is designed build a workout regime based on user’s
               preference as well as calculating BMI, body fat, and
               Calorie/Protein tracking
