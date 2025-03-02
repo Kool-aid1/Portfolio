@@ -96,7 +96,28 @@ function App() {
             <div className="max-w-4xl mx-auto p-4">
               <div className="mb-8">
                 <header className="text-center text-xl font-semibold mb-4">
-                  Server, August 2022 - Present @ Bonchon
+                  Triage Technician, Nov 2024 - Current @ Give Back Wireless
+                </header>
+                <ul className="list-disc list-inside text-left">
+                  <li className="mb-2">
+                    Utilized Phonecheck software to accurately grade and test
+                    mobile devices, ensuring they meet quality standards for
+                    resale.
+                  </li>
+                  <li className="mb-2">
+                    Diagnosed and resolved a wide range of mobile device issues,
+                    enhancing device performance and customer satisfaction.
+                  </li>
+                  <li className="mb-2">
+                    Conducted thorough inspections and assessments of mobile
+                    devices to identify defects and ensure compliance with
+                    industry standards.
+                  </li>
+                </ul>
+              </div>
+              <div className="mb-8">
+                <header className="text-center text-xl font-semibold mb-4">
+                  Server, Aug 2022 - Nov 2024 @ Bonchon
                 </header>
                 <ul className="list-disc list-inside text-left">
                   <li className="mb-2">
@@ -121,7 +142,7 @@ function App() {
               </div>
               <div className="mb-8">
                 <header className="text-center text-xl font-semibold mb-4">
-                  Barista, September 2021 - May 2022 @ Starbucks
+                  Barista, Sept 2021 - May 2022 @ Starbucks
                 </header>
                 <ul className="list-disc list-inside text-left">
                   <li className="mb-2">

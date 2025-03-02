@@ -35,8 +35,8 @@ function Skills() {
               <li>React</li>
               <li>Redux</li>
               <li>Node.js</li>
-              <li>Express.js</li>
               <li>Tailwind CSS</li>
+              <li>Expo</li>
             </ul>
             <ul className="flex flex-wrap justify-center sm:justify-start space-x-2 sm:space-x-4 mt-2">
               <li className="font-bold w-full sm:w-auto">IDE:</li>
@@ -58,10 +58,12 @@ function Skills() {
               <li>SQL Lite</li>
               <li>Firebase</li>
               <li>Mongo DB</li>
+              <li>Supabase</li>
             </ul>
             <ul className="flex flex-wrap justify-center sm:justify-start space-x-2 sm:space-x-4 mt-2">
               <li className="font-bold w-full sm:w-auto">Other:</li>
               <li>Git</li>
+              <li>Github</li>
               <li>Jupyter Notebook</li>
               <li>Unity</li>
               <li>Postman</li>

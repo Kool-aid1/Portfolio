@@ -9,6 +9,34 @@ function App() {
           Projects
         </header>
         <div className="max-w-4xl mx-auto p-4">
+          <header className="text-center text-xl font-semibold mb-4">
+            HausOps (Mobile Application)
+          </header>
+          <ul className="list-disc list-inside text-left">
+            <li>
+              Developing a cross-platform solution in React, Python, and Expo on
+              a secure server, streamlining data flow and user experience
+            </li>
+          </ul>
+        </div>
+        <div className="max-w-4xl mx-auto p-4">
+          <header className="text-center text-xl font-semibold mb-4">
+            VizTrace (Networking Project)
+          </header>
+          <ul className="list-disc list-inside text-left">
+            <li>
+              Developed a GUI-based trace route program to visualize packet
+              paths and geolocate IP addresses using Python, Scapy, GeoIP2, and
+              MaxMind DB Reader.
+            </li>
+            <li>
+              Designed a web-based frontend with HTML, Flask, and Flask-CORS to
+              display results on an interactive map, utilizing Npcap/libpcap for
+              packet capture.
+            </li>
+          </ul>
+        </div>
+        <div className="max-w-4xl mx-auto p-4">
           <header
             className="text-center text-xl font-semibold mb-4"
             hover="text-xxl"
