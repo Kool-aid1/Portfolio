@@ -2,6 +2,11 @@ import React, { useState } from "react";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [contactOpen, setContactOpen] = useState(false); // State for contact popup
+
+  const toggleContact = () => {
+    setContactOpen(!contactOpen);
+  };
 
   return (
     <header className="bg-zinc-800 text-white fixed top-0 w-full z-10 shadow-md">
@@ -34,12 +39,12 @@ function Navbar() {
           >
             Projects
           </a>
-          <a
-            href="#contact"
+          <button
+            onClick={toggleContact}
             className="hover:text-gray-300 transition duration-300"
           >
             Contact
-          </a>
+          </button>
         </div>
         <div className="md:hidden flex items-center">
           <button
@@ -89,12 +94,29 @@ function Navbar() {
           >
             Projects
           </a>
-          <a
-            href="#contact"
+          <button
+            onClick={toggleContact}
             className="py-2 hover:text-gray-300 transition duration-300"
           >
             Contact
-          </a>
+          </button>
+        </div>
+      )}
+      {contactOpen && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-20">
+          <div className="bg-white rounded-lg shadow-lg p-6 max-w-sm w-full">
+            <h2 className="text-xl font-bold mb-4 text-gray-800">
+              Contact Information
+            </h2>
+            <p className="mb-2 text-gray-700">Email: ktly23@yahoo.com</p>
+            <p className="mb-4 text-gray-700">Phone: (858) 232-8884</p>
+            <button
+              onClick={toggleContact}
+              className="text-white bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4 rounded transition duration-300"
+            >
+              Close
+            </button>
+          </div>
         </div>
       )}
     </header>
